@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">reminder_app_frontend</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="delete_reminder">Delete</string>
+    <string name="reminder_title">Title</string>
+    <string name="reminder_details">Details</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="reminder_time">Time</string>
+    <string name="reminder_date">Date</string>
+    <string name="reminder_description">Description</string>
+    <string name="switch_to_month">Month</string>
+    <string name="switch_to_day">Day</string>
+    <string name="empty_no_reminders">No reminders</string>
 </resources>

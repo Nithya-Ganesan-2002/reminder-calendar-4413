@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_gravity="fill"
+    android:layout_margin="2dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/dayNumber"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/textPrimary" />
+
+    <View
+        android:id="@+id/reminderBadge"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/circle_dot"
+        android:visibility="gone"
+        android:importantForAccessibility="no"/>
+</FrameLayout>
